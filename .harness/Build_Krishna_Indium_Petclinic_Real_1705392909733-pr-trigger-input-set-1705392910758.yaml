@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_Krishna_Indium_Petclinic_Real_1705392909733-pr-trigger-input-set
+  identifier: Build_Krishna_Indium_Petclinic_Real_1705392909733prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: demo_poc
+  pipeline:
+    identifier: Build_Krishna_Indium_Petclinic_Real_1705392909733
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
